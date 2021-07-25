@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+body.header-attached {
+    padding-top: 68px;
+}
+/*Basic site containers*/
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.content-section {
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*Flexbox containers*/
+.flex-container {
+    display: flex;
+}
+.flex-container.space-between {
+    justify-content: space-between;
+}
+.flex-container.wrap {
+    flex-wrap: wrap;
+}
+.flex-container.align-start {
+    align-items: flex-start;
+}
+/*Navigation*/
+header {
+    width: 100%;
+    background-color: #fff;
+    transition: background-color 0.5s;
+}
+header ul {
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 24px 0 16px;
+    transition: padding 0.5s;
+}
+header ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 8px;
+    position: relative;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #000;
+    font-family: "Heebo", sans-serif;
+}
+header ul li:hover {
+    cursor: pointer;
+}
+header ul li:before {
+    content: " ";
+    width: 0px;
+    height: 2px;
+    display: block;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+header ul li:hover:before, header ul li.active:before {
+    width: 100%;
+}
+/*Fixed Navigation styles*/
+header.attached {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 99;
+}
+header.attached ul {
+    padding: 16px 0 12px;
+}
+header.attached ul li {
+    color: #fff;
+    padding-bottom: 4px;
+}
+header.attached ul li:before {
+    background-color: #fff;
+}
+/*intro section*/
+.content-header {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.content-header h1 {
+    margin: 0 auto;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+}
+.content-header p {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+.content-header .scroll-down {
+    margin-top: 9px;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+    position: relative;
+}
+.content-header .scroll-down .target {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    line-height: 1;
+    transition: font-size 0.5s;
+}
+.content-header .scroll-down .target:hover {
+    font-size: 72px;
+}    
+/* Content Sections Basic CSS*/
+.content-section {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s, transform 0.5s;
+}
+.content-section.loaded {
+    opacity: 1;
+    visibility: visible;
+}
+.content-section h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 0;
+    font-family: "Heebo", sans-serif;
+    position: relative;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+.content-section h2:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+}
+.content-section.active h2:before {
+    width: 100%;
+}
+/*About*/
+.content-section.about .images {
+    width: 360px;
+    height: 360px;
+    position: relative;
+    margin-top: 5px;
+}
+.content-section.about .images img {
+    width: 175px;
+    height: 175px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    transition: width 0.5s, height 0.5s;
+}
+.content-section.about .images img:first-of-type, .content-section.about .images img:nth-of-type(2) {
+    margin-bottom: 10px;
+}
+.content-section.about .images img:hover {
+    width: 100%;
+    height: 100%;
+}
+.content-section.about .images img.active {
+    z-index: 2;
+}
+.content-section.about .images img:first-of-type {
+    top: 0;
+    left: 0;
+}
+.content-section.about .images img:nth-of-type(2) {
+    top: 0;
+    right: 0;
+}
+.content-section.about .images img:nth-of-type(3) {
+    bottom: 0;
+    left: 0;
+}
+.content-section.about .images img:last-of-type {
+    bottom: 0;
+    right: 0;
+}          
+.content-section.about .text {
+    width: calc(100% - 396px);
+    flex-grow: 0;
+}  
+.content-section.about .text p:first-of-type {
+   margin-top: 0;
+}
+.content-section.about .text p:last-of-type {
+    margin-bottom: 0;
+ }    
+/*Skills*/
+
+/*Portfolio*/
+
+/*Contact*/
+
+/*Footer*/
+
