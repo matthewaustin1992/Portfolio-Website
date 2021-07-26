@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
-}
-body.header-attached {
     padding-top: 68px;
+    padding-bottom: 40px;
+    background-color: #fff;
 }
 /*Basic site containers*/
 .container {
@@ -15,9 +15,7 @@ body.header-attached {
     margin: 0 auto;
 }
 .content-section {
-    padding: 20px 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 40px 0;
 }
 /*Flexbox containers*/
 .flex-container {
@@ -32,11 +30,25 @@ body.header-attached {
 .flex-container.align-start {
     align-items: flex-start;
 }
+.flex-container.align-center {
+    align-items: center;
+}
+.flex-container.justify-center {
+    justify-content: center;
+}
+.flex-container.column {
+    flex-direction: column;
+    align-items: flex-start;
+}
 /*Navigation*/
 header {
     width: 100%;
     background-color: #fff;
     transition: background-color 0.5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 header ul {
     margin: 0 auto;
@@ -52,7 +64,7 @@ header ul li {
     font-size: 24px;
     line-height: 32px;
     font-weight: 500;
-    color: #000;
+    color: #212226;
     font-family: "Heebo", sans-serif;
 }
 header ul li:hover {
@@ -63,37 +75,44 @@ header ul li:before {
     width: 0px;
     height: 2px;
     display: block;
-    background-color: #000;
+    background-color: #212226;
     position: absolute;
     bottom: 0;
     left: 0;
     transition: all 0.5s;
+}
+header ul li.active:before {
+    background-color: #cca068;
 }
 header ul li:hover:before, header ul li.active:before {
     width: 100%;
 }
 /*Fixed Navigation styles*/
 header.attached {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    z-index: 99;
+    background-color: #212226;
 }
 header.attached ul {
     padding: 16px 0 12px;
 }
 header.attached ul li {
-    color: #fff;
+    color: #fafafa;
     padding-bottom: 4px;
 }
 header.attached ul li:before {
-    background-color: #fff;
+    background-color: #fafafa;
+}
+header.attached ul li.active:before {
+    background-color: #cca068;
 }
 /*intro section*/
 .content-header {
-    margin-top: 120px;
-    margin-bottom: 80px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    margin: 0 auto 60px;
+    background-image: url(../images/background_resized.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
 }
 .content-header h1 {
     margin: 0 auto;
@@ -107,24 +126,33 @@ header.attached ul li:before {
     line-height: 24px;
     text-align: center;
 }
-.content-header .scroll-down {
-    margin-top: 9px;
+.content-header .contact-icons {
+    margin-top: 9px; 
+}
+.content-header .contact-icons a {
     width: 72px;
     height: 72px;
+    display: inline-block;
     margin: 0 auto;
     position: relative;
-}
-.content-header .scroll-down .target {
+    color: #000;
+    margin-right: 16px;
+    margin-left: 16px;
+    transition: color 0.5s;
+}   
+.content-header .contact-icons a:visited {
+    color: #000;
+}    
+.content-header .contact-icons a span {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 60px;
     line-height: 1;
-    transition: font-size 0.5s;
 }
-.content-header .scroll-down .target:hover {
-    font-size: 72px;
+.content-header .contact-icons a:hover {
+    color: #fafafa;
 }    
 /* Content Sections Basic CSS*/
 .content-section {
@@ -137,13 +165,14 @@ header.attached ul li:before {
     visibility: visible;
 }
 .content-section h2 {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 1.2;
     margin-top: 0;
     font-family: "Heebo", sans-serif;
     position: relative;
     padding-bottom: 8px;
     display: inline-block;
+    color: #53545c;
 }
 .content-section h2:before {
     content: " ";
@@ -153,12 +182,24 @@ header.attached ul li:before {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: #53545c;
+    transition: width 0.5s;
 }
 .content-section.active h2:before {
     width: 100%;
 }
 /*About*/
+.content-section.about .image {
+    width: 240px;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 0;
+}
+.content-section.about .image img {
+    width: 100%;
+    box-sizing: border-box;
+}
 .content-section.about .images {
     width: 360px;
     height: 360px;
@@ -198,22 +239,249 @@ header.attached ul li:before {
 .content-section.about .images img:last-of-type {
     bottom: 0;
     right: 0;
+}
+.content-section.about .text-section:first-of-type, .content-section.about .text-section:nth-of-type(3) {
+    background-color: #eee;
+}
+.content-section.about .text-section:first-of-type .text, .content-section.about .text-section:nth-of-type(3) .text {
+    padding-right: 24px;
+    padding-left: 24px;
 }          
 .content-section.about .text {
-    width: calc(100% - 396px);
+    width: calc(100% - 276px);
     flex-grow: 0;
-}  
-.content-section.about .text p:first-of-type {
-   margin-top: 0;
 }
-.content-section.about .text p:last-of-type {
-    margin-bottom: 0;
- }    
+.content-section.about .text p {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 1em 0;
+}   
 /*Skills*/
-
+.content-section.skills .skillset {
+    width: calc(20% - 12px);
+    margin: 0 7.5px;
+    flex-grow: 0;
+    background-color: #eee;
+}
+.content-section.skills .skillset:first-of-type {
+    margin-left: 0;
+}
+.content-section.skills .skillset:last-of-type {
+    margin-right: 0;
+}
+.content-section.skills .skillset h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    text-align: center;
+    background-color: #212226;
+    color: #cca068;
+    padding: 9px;
+    box-sizing: border-box;
+    font-family: "Heebo", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-section.skills .skillset ul {
+    margin: 12px 9px;
+    padding-left: 21px;
+}
+.content-section.skills .skillset ul li {
+    font-size: 18px;
+    line-height: 21px;
+}    
 /*Portfolio*/
-
+.content-section.portfolio .item {
+    width: calc(50% - 20px);
+    margin-bottom: 40px;
+}
+.content-section.portfolio .item:nth-of-type(1), .content-section.portfolio .item:nth-of-type(4), .content-section.portfolio .item:nth-of-type(5), .content-section.portfolio .item:nth-of-type(8) {
+    background-color: #eee;
+}
+.content-section.portfolio .item:nth-of-type(n+7) {
+    margin-bottom: 0;
+}    
+.content-section.portfolio .item .image {
+    position: relative;
+    overflow: hidden;
+}
+.content-section.portfolio .item .image:before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(33,34,38,1) 11%, rgba(101,103,112,0.2) 52%, rgba(16,17,17,0.8) 100%);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+.content-section.portfolio .item .image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+.content-section.portfolio .item .image a {
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #cca068;
+    padding-bottom: 8px;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-decoration: none;
+}
+.content-section.portfolio .item .image a:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #cca068;
+    z-index: 1;
+    transition: width 0.5s;
+}    
+.content-section.portfolio .item .image a:hover:before {
+    width: 100%;
+}
+.content-section.portfolio .item .image:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+.content-section.portfolio .item .image:hover a {
+    visibility: visible;
+    opacity: 1;
+}
+.content-section.portfolio .item .text {
+    padding: 24px;
+}    
+.content-section.portfolio .item .text h3 {
+    font-family: "Heebo", sans-serif;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #212226;
+}
+.content-section.portfolio .item .text h4 {
+    font-size: 21px;
+    line-height: 24px;
+    margin: 0;
+    color: #53545c;
+}    
+.content-section.portfolio .item .text p, .content-section.portfolio .item .text a {
+    font-size: 18px;
+    line-height: 24px;
+}
+.content-section.portfolio .item .text > a {
+    position: relative;
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: #cca068;
+}
+.content-section.portfolio .item .text > a:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #cca068;
+    z-index: 1;
+    transition: width 0.5s;
+}    
+.content-section.portfolio .item .text > a:hover:before {
+    width: 100%;
+}    
 /*Contact*/
-
+.content-section.contact {
+    margin-bottom: 60px;
+}
+.content-section.contact p {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+.content-section.contact a {
+    display: inline-block;
+    margin: 12px 0 6px;
+    clear: left;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #212226;
+    transition: color 0.5s;
+    padding-bottom: 6px;
+    position: relative;
+}
+.content-section.contact a:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #212226;
+    transition: width 0.5s, background-color 0.5s;
+}
+.content-section.contact a:hover {
+    color: #cca068;
+}
+.content-section.contact a:hover:before {
+    width: 100%;
+    background-color: #cca068;
+}    
+.content-section.contact a:first-of-type {
+    margin-top: 0;
+}
+.content-section.contact a:last-of-type {
+    margin-bottom: 0;
+}
+.content-section.contact a span {
+    display: inline-block;
+    margin-left: 8px;
+}    
 /*Footer*/
-
+footer {
+    position: fixed;
+    background-color:#212226;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5em 0;
+    z-index: 99;
+}
+footer .flex-container > * {
+    font-size: 18px;
+    margin-left: 6px;
+    margin-right: 6px;
+    color: #fafafa;
+    display: inline-block;
+    transition: color 0.5s;
+    text-decoration: none;
+}
+footer .flex-container > *:last-of-type {
+    margin-left: 10px;
+}
+footer .flex-container a:hover {
+    color: #cca068;
+    text-decoration: none;
+}

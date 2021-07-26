@@ -5,16 +5,18 @@ var vars = {
 }
 jQuery(document).ready(function(){
     nav();
-    scrollDown();
+    //scrollDown();
     imageHover();
-    checkSection();
+    //checkSection();
+    skillsHeaders();
 });
 jQuery(window).scroll(function(){
     headerControls();
-    checkSection();
+    //checkSection();
 });
 jQuery(window).scroll(function(){
-    checkSection();
+    //checkSection();
+    skillsHeaders();
 });
 //basic listener for the pseudo links in the main navigation.
 var nav = function() {
@@ -48,7 +50,7 @@ var nav = function() {
     });
 }
 //listener in intro text section to move down to About section
-var scrollDown = function() {
+/*var scrollDown = function() {
     jQuery('.scroll-down').click(function(){
         var hash="about";
         window.location.hash = hash;
@@ -59,7 +61,7 @@ var scrollDown = function() {
             scrollTop: jQuery('.about').offset().top - 144
         }, 1000);
     }); 
-}
+}*/
 //control the fix/natural state of the header while scrolling down the pagee
 var headerControls = function(){
     var offset = jQuery('body,html').scrollTop();
@@ -85,6 +87,7 @@ var imageHover = function() {
     });
 }
 //check where the user is on the page and apply classes to the section or header item accordingly
+/*
 var checkSection = function() {
     var window_offset = jQuery('body,html').scrollTop();
     jQuery('.content-section').each(function(){
@@ -94,6 +97,15 @@ var checkSection = function() {
             jQuery(this).addClass('loaded').addClass('active');
         }
     });
+}*/
+//script for ensuring that the skills headers evenly align
+var skillsHeaders = function() {
+    var height = 0;
+    jQuery('.content-section.skills .skillset h3').css('height','');
+    jQuery('.content-section.skills .skillset h3').each(function(){
+        var header_height = jQuery(this).outerHeight(false);
+        if (header_height > height) height = header_height;
+    });
+    jQuery('.content-section.skills .skillset h3').css('height', height+'px');
 }
-
 
