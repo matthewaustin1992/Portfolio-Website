@@ -337,12 +337,15 @@ body[screen=xs] .content-section h2 {
     padding-right: 24px;
     padding-left: 24px;
 }
+.content-section.about .text-section:nth-of-type(2) .text {
+    padding-right: 24px;
+}    
 body[screen=xs] .content-section.about .text-section .text {
     padding-right: 18px;
     padding-left: 18px;
 }          
 .content-section.about .text {
-    width: calc(100% - 276px);
+    width: calc(100% - 240px);
     flex-grow: 0;
 }
 .content-section.about .text p {
