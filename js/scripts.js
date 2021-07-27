@@ -1,9 +1,16 @@
 console.log('initialized correctly');
 //initialize base variables and functions
 var vars = {
-    headerFix: 68
+    headerFix: 68,
+    screen: {
+        'xs': 320,
+        'sm' : 640,
+        'md' : 960,
+        'lg' : 1280
+    }
 }
 jQuery(document).ready(function(){
+    screenSize();
     nav();
     //scrollDown();
     imageHover();
@@ -14,8 +21,9 @@ jQuery(window).scroll(function(){
     headerControls();
     //checkSection();
 });
-jQuery(window).scroll(function(){
+jQuery(window).resize(function(){
     //checkSection();
+    screenSize();
     skillsHeaders();
 });
 //basic listener for the pseudo links in the main navigation.
@@ -108,4 +116,21 @@ var skillsHeaders = function() {
     });
     jQuery('.content-section.skills .skillset h3').css('height', height+'px');
 }
-
+/*screen size script */
+var screenSize = function() {
+    var width = jQuery(window).width();
+    switch (true) {
+        case (vars.screen.sm > width): 
+            jQuery('body').attr('screen','xs');
+            break;
+        case (vars.screen.md > width && width >= vars.screen.xs):
+            jQuery('body').attr('screen','sm');
+            break;
+        case (vars.screen.lg > width && width >= vars.screen.md):
+            jQuery('body').attr('screen','md');
+            break;
+        case (width >= vars.screen.lg):
+            jQuery('body').attr('screen','lg');
+            break;
+    }
+}

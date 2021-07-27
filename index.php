@@ -6,6 +6,7 @@
     <meta name="description" content="Front End UX/UI Web Developer from Marlton, NJ.">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Matthew Austin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="<?php echo get_template_directory_uri();?>/css/styles.css?v=<?php echo(filemtime(get_template_directory().'/css/styles.css'));?>" rel="stylesheet" as="style"></link>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="<?php echo get_template_directory_uri();?>/js/scripts.js?v=<?php echo(filemtime(get_template_directory().'/js/scripts.js'));?>" type="text/JavaScript"></script>
@@ -42,7 +43,7 @@
             </div>-->
             <div class="text-section flex-container space-between align-center">
                 <div class="image">
-                    <img src="<?php echo get_template_directory_uri();?>/images/gallery2.jpg" width="240" height="240" alt="Gallery Image 2">
+                    <img src="<?php echo get_template_directory_uri();?>/images/gallery2.jpg" width="540" height="540" alt="Gallery Image 2">
                 </div>    
                 <div class="text">
                     <p>I am a website developer located in Marlton, NJ that specializes in full stack website development, but primarily focuses on front end User Interface (UI) and User Experience (UX). After entering into the field in early 2015 I have worked on a variety of projects using Content Management systems such as as Wordpress and Joomla, static HTML pages, and Web Applications using the React framework. Much of my professional experience has been focused on JavaScript and CSS development, with some use of PHP in the context of CMS web development, and with a particular focus on using newer frameworks, elements of these languages, and libraries to help innovate pre-existing websites and modernize them.</p>
@@ -53,12 +54,12 @@
                     <p>Growing up I had a strong interest in video games and went into a major in college focused on programming to learn more about how they were made. Between the years of 2011 and 2014 I attended the College of New Jersey (TCNJ) and undertook its Interative Multimedia program, graduating a year early with a Bachelor of the Arts degree. Towards the end of my education and after graduation I pivoted into web development and have worked in that field ever since. I still maintain a passion for game design and development, for both digital and physical games.</p>
                 </div>
                 <div class="image">
-                    <img src="<?php echo get_template_directory_uri();?>/images/gallery3.jpg" width="240" height="240" alt="Gallery Image 3">
+                    <img src="<?php echo get_template_directory_uri();?>/images/gallery3.jpg" width="540" height="540" alt="Gallery Image 3">
                 </div>
             </div>
             <div class="text-section flex-container space-between align-center">   
                 <div class="image">
-                <img src="<?php echo get_template_directory_uri();?>/images/books.jpg" width="240" height="240" alt="Playbooks">
+                <img src="<?php echo get_template_directory_uri();?>/images/books.jpg" width="540" height="540" alt="Playbooks">
                 </div>    
                 <div class="text">
                     <p>When I'm not programming I am often practicing guitar, working on writing or playing in any number of tabletop role-playing games, painting miniatures, or riding my bike when the weather allows it. I have a passion for writing and music that is often worked into other aspects of my life, whether directly or indirectly.</p>
@@ -217,7 +218,7 @@
             <a href="https://www.linkedin.com/in/matt-austin-085b89b0" target="_blank">LinkedIn<span class="fab fa-linkedin-in"></span></a>
             <a href="https://github.com/matthewaustin1992" target="_blank">GitHub<span class="fab fa-github"></span></a>
             <a href="mailto:maustin92@gmail.com" target="_blank">Email<span class="fas fa-envelope"></span></a>
-            <a href="https://matt-austin-developer.com/wp-content/uploads/2021/07/Matthew-Austin-resume-2021.pdf" target="_blank">Resume<span class="fas fa-scroll"></span></a>
+            <a href="https://matt-austin-developer.com/wp-content/uploads/2021/07/Matthew_Austin_resume_2021.pdf" target="_blank">Resume<span class="fas fa-scroll"></span></a>
         </div>
     </div>
     <footer>
