@@ -1,0 +1,1042 @@
+{
+  "Roboto Condensed": {
+    "weight": "700",
+    "pair": {
+      "name": "Cabin",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Roboto": {
+    "weight": "700",
+    "pair": {
+      "name": "Lora",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Cabin": {
+    "weight": "400",
+    "pair": {
+      "name": "Open Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "PT Sans": {
+    "weight": "700",
+    "pair": {
+      "name": "Playfair Display",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Cinzel": {
+    "weight": "700",
+    "pair": {
+      "name": "Fauna One",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Oswald": {
+    "weight": "400",
+    "pair": {
+      "name": "Quattrocento",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Ubuntu": {
+    "weight": "700",
+    "pair": {
+      "name": "Open Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Rufina": {
+    "weight": "700",
+    "pair": {
+      "name": "PT Serif",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Oswald:300": {
+    "weight": "300",
+    "pair": {
+      "name": "Esteban",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Playfair Display Black": {
+    "weight": "800",
+    "pair": {
+      "name": "Source Sans Pro",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Libre Baskerville": {
+    "weight": "700",
+    "pair": {
+      "name": "Nunito",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Catamaran": {
+    "weight": "600",
+    "pair": {
+      "name": "Merriweather Sans",
+      "weight": "300"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Bree Serif": {
+    "weight": "400",
+    "pair": {
+      "name": "Alegreya",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Alfa Slab One": {
+    "weight": "400",
+    "pair": {
+      "name": "Gentium Book Basic",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Shrikhand": {
+    "weight": "400",
+    "pair": {
+      "name": "Fanwood Text",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Patua One": {
+    "weight": "400",
+    "pair": {
+      "name": "Maven Pro",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Anton": {
+    "weight": "400",
+    "pair": {
+      "name": "Signika",
+      "weight": "300"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Domine": {
+    "weight": "400",
+    "pair": {
+      "name": "Open Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Merriweather Sans": {
+    "weight": "400",
+    "pair": {
+      "name": "Merriweather",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Cormorant Garamond": {
+    "weight": "700",
+    "pair": {
+      "name": "Fira Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Old Standard TT": {
+    "weight": "400",
+    "pair": {
+      "name": "Rubik",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Julius Sans One": {
+    "weight": "400",
+    "pair": {
+      "name": "Monda",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Ovo": {
+    "weight": "400",
+    "pair": {
+      "name": "Quattrocento Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Cardo": {
+    "weight": "400",
+    "pair": {
+      "name": "Libre Franklin",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Goudy Book Letter": {
+    "weight": "400",
+    "pair": {
+      "name": "Average Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Prata": {
+    "weight": "400",
+    "pair": {
+      "name": "Lato",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Permanent Marker": {
+    "weight": "400",
+    "pair": {
+      "name": "Overpass",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Source Sans Pro": {
+    "weight": "400",
+    "pair": {
+      "name": "Lato",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Montserrat": {
+    "weight": "400",
+    "pair": {
+      "name": "Arvo",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Source Serif Pro": {
+    "weight": "400",
+    "pair": {
+      "name": "Source Sans Pro",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Rosario": {
+    "weight": "400",
+    "pair": {
+      "name": "Crimson Text",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Arvo": {
+    "weight": "400",
+    "pair": {
+      "name": "Lato",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Work Sans": {
+    "weight": "300",
+    "pair": {
+      "name": "Open Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Nunito": {
+    "weight": "300",
+    "pair": {
+      "name": "PT Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Source Sans Pro:800": {
+    "weight": "800",
+    "pair": {
+      "name": "Sintony",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Slabo": {
+    "weight": "400",
+    "pair": {
+      "name": "Lato",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Chivo": {
+    "weight": "700",
+    "pair": {
+      "name": "Crimson Text",
+      "weight": "400roman"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Rubik": {
+    "weight": "400",
+    "pair": {
+      "name": "Karla",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Playfair Display": {
+    "weight": "700",
+    "pair": {
+      "name": "Fira Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Alegreya Sans": {
+    "weight": "400",
+    "pair": {
+      "name": "Alegreya",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Abril Fatface": {
+    "weight": "400",
+    "pair": {
+      "name": "Poppins",
+      "weight": "300"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Merriweather": {
+    "weight": "400",
+    "pair": {
+      "name": "Muli",
+      "weight": "300"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Roboto:600": {
+    "weight": "600",
+    "pair": {
+      "name": "Libre Baskerville",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Neuton": {
+    "weight": "400",
+    "pair": {
+      "name": "Lato",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Varela Round": {
+    "weight": "400",
+    "pair": {
+      "name": "Lora",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Roboto Slab": {
+    "weight": "400",
+    "pair": {
+      "name": "Roboto",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Playfair Display:400": {
+    "weight": "400",
+    "pair": {
+      "name": "Source Sans Pro",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Ruda": {
+    "weight": "400",
+    "pair": {
+      "name": "Roboto Slab",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Lato": {
+    "weight": "400",
+    "pair": {
+      "name": "Catamaran",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "PT Sans:400": {
+    "weight": "400",
+    "pair": {
+      "name": "Bitter",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Questrial": {
+    "weight": "400",
+    "pair": {
+      "name": "Alegreya",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Unica One": {
+    "weight": "400",
+    "pair": {
+      "name": "Crimson Text",
+      "weight": "400roman"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Vollkorn": {
+    "weight": "400",
+    "pair": {
+      "name": "Raleway",
+      "weight": "500"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Overpass": {
+    "weight": "400",
+    "pair": {
+      "name": "Raleway",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Dosis": {
+    "weight": "400",
+    "pair": {
+      "name": "Titillium Web",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Raleway": {
+    "weight": "300",
+    "pair": {
+      "name": "Frank Ruhl Libre",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Eczar": {
+    "weight": "600",
+    "pair": {
+      "name": "Merriweather",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Neuton:400": {
+    "weight": "400",
+    "pair": {
+      "name": "Work Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Lobster Two": {
+    "weight": "400",
+    "pair": {
+      "name": "Work Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Indie Flower": {
+    "weight": "400",
+    "pair": {
+      "name": "Muli",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Pacifico": {
+    "weight": "400",
+    "pair": {
+      "name": "Lato",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Parisienne": {
+    "weight": "400",
+    "pair": {
+      "name": "Oswald",
+      "weight": "300"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Amatic SC": {
+    "weight": "400",
+    "pair": {
+      "name": "Josefin Slab",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Petit Formal Script": {
+    "weight": "400",
+    "pair": {
+      "name": "Montserrat",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Sacramento": {
+    "weight": "400",
+    "pair": {
+      "name": "Open Sans",
+      "weight": "300"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Dancing Script": {
+    "weight": "400",
+    "pair": {
+      "name": "Give You Glory",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Fredericka the Great": {
+    "weight": "400",
+    "pair": {
+      "name": "Amatic SC",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Fredoka One": {
+    "weight": "400",
+    "pair": {
+      "name": "Questrial",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Heebo": {
+    "weight": "800",
+    "pair": {
+      "name": "Roboto",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Patua One:400": {
+    "weight": "400",
+    "pair": {
+      "name": "Quicksand",
+      "weight": "300"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Bevan": {
+    "weight": "400",
+    "pair": {
+      "name": "Rubik",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Lora": {
+    "weight": "400",
+    "pair": {
+      "name": "Roboto",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Montserrat:800": {
+    "weight": "800",
+    "pair": {
+      "name": "Gothic A1",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Satisfy": {
+    "weight": "400",
+    "pair": {
+      "name": "Lora",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Indie Flower:400": {
+    "weight": "400",
+    "pair": {
+      "name": "Indie Flower",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Caveat": {
+    "weight": "400",
+    "pair": {
+      "name": "Varela Round",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Princess Sofia": {
+    "weight": "400",
+    "pair": {
+      "name": "Source Serif Pro",
+      "weight": "400"
+    },
+    "styles": [
+      "Handwritten"
+    ]
+  },
+  "Volkhov": {
+    "weight": "400",
+    "pair": {
+      "name": "Gothic A1",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Solway": {
+    "weight": "400",
+    "pair": {
+      "name": "Cabin",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Frank Ruhl Libre": {
+    "weight": "400",
+    "pair": {
+      "name": "Noto Serif",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Lato:400": {
+    "weight": "400",
+    "pair": {
+      "name": "Domine",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Calistoga": {
+    "weight": "400",
+    "pair": {
+      "name": "Arimo",
+      "weight": "400"
+    },
+    "styles": [
+      "Classic"
+    ]
+  },
+  "Luckiest Guy": {
+    "weight": "400",
+    "pair": {
+      "name": "Varela Round",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Audiowide": {
+    "weight": "400",
+    "pair": {
+      "name": "Exo 2",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Chewy": {
+    "weight": "400",
+    "pair": {
+      "name": "Varela Round",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Press Start 2P": {
+    "weight": "400",
+    "pair": {
+      "name": "IBM Plex Mono",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Atma": {
+    "weight": "700",
+    "pair": {
+      "name": "Muli",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Muli": {
+    "weight": "400",
+    "pair": {
+      "name": "Muli",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Rubik:400": {
+    "weight": "400",
+    "pair": {
+      "name": "Rubik",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Josefin Sans": {
+    "weight": "400",
+    "pair": {
+      "name": "Montserrat",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Special Elite": {
+    "weight": "400",
+    "pair": {
+      "name": "Inconsolata",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Alata": {
+    "weight": "400",
+    "pair": {
+      "name": "Questrial",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Catamaran:600": {
+    "weight": "600",
+    "pair": {
+      "name": "Roboto Slab",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Heebo:500": {
+    "weight": "500",
+    "pair": {
+      "name": "Source Sans Pro",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Assistant": {
+    "weight": "600",
+    "pair": {
+      "name": "Poppins",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Oswald:400": {
+    "weight": "400",
+    "pair": {
+      "name": "Barlow",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Mulish": {
+    "weight": "300",
+    "pair": {
+      "name": "Open Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Red Hat Display": {
+    "weight": "900",
+    "pair": {
+      "name": "Montserrat",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  },
+  "Fredoka One:400": {
+    "weight": "400",
+    "pair": {
+      "name": "Varela Round",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "PT Sans Caption": {
+    "weight": "700",
+    "pair": {
+      "name": "Source Sans Pro",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Red Hat Display:700": {
+    "weight": "700",
+    "pair": {
+      "name": "Red Hat Text",
+      "weight": "400"
+    },
+    "styles": [
+      "Modern"
+    ]
+  },
+  "Barlow": {
+    "weight": "500",
+    "pair": {
+      "name": "Barlow",
+      "weight": "400"
+    },
+    "styles": [
+      "Minimal"
+    ]
+  },
+  "Coiny": {
+    "weight": "400",
+    "pair": {
+      "name": "Varela Round",
+      "weight": "400"
+    },
+    "styles": [
+      "Playful"
+    ]
+  },
+  "Fira Sans": {
+    "weight": "600",
+    "pair": {
+      "name": "Fira Sans",
+      "weight": "400"
+    },
+    "styles": [
+      "Bold"
+    ]
+  }
+}

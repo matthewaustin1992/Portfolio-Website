@@ -1,0 +1,10 @@
+[25-Jul-2021 00:46:49 UTC] WordPress database error Specified key was too long; max key length is 767 bytes for query CREATE TABLE 3v3_ce4wp_contacts (
+			contact_id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+			email varchar(200) NOT NULL DEFAULT '',
+			first_name varchar(200) DEFAULT '',
+			last_name varchar(200) DEFAULT '',
+			telephone varchar(200) DEFAULT '',
+            consent varchar(200) DEFAULT '',
+			PRIMARY KEY  (contact_id),
+			UNIQUE KEY email (email)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, CreativeMail\Managers\DatabaseManager->update_database_check, CreativeMail\Managers\DatabaseManager->create_contacts_table, dbDelta

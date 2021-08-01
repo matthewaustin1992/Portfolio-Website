@@ -1,0 +1,11 @@
+[25-Jul-2021 00:56:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function filentime() in /home1/mattaust/public_html/wp-content/themes/portfolio/index.php:9
+Stack trace:
+#0 /home1/mattaust/public_html/wp-includes/template-loader.php(106): include()
+#1 /home1/mattaust/public_html/wp-blog-header.php(19): require_once('/home1/mattaust...')
+#2 /home1/mattaust/public_html/index.php(17): require('/home1/mattaust...')
+#3 {main}
+  thrown in /home1/mattaust/public_html/wp-content/themes/portfolio/index.php on line 9
+[25-Jul-2021 01:03:16 UTC] PHP Warning:  filemtime(): stat failed for ./css/styles.css in /home1/mattaust/public_html/wp-content/themes/portfolio/index.php on line 9
+[25-Jul-2021 01:03:16 UTC] PHP Warning:  filemtime(): stat failed for ./js/scripts.js in /home1/mattaust/public_html/wp-content/themes/portfolio/index.php on line 10
+[25-Jul-2021 01:17:18 UTC] PHP Warning:  filemtime(): stat failed for https://matt-austin-developer.com/wp-content/themes/portfolio/css/styles.css in /home1/mattaust/public_html/wp-content/themes/portfolio/index.php on line 9
+[25-Jul-2021 01:17:18 UTC] PHP Warning:  filemtime(): stat failed for https://matt-austin-developer.com/wp-content/themes/portfolio/js/scripts.js in /home1/mattaust/public_html/wp-content/themes/portfolio/index.php on line 10
